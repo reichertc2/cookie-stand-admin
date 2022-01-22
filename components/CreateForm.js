@@ -19,7 +19,7 @@ export default function CreateForm(props) {
                         <br></br>
                         <input type="text" className="rounded mt-3 w-3/4"></input>
                     </label>
-                    <button className="bg-green-400 rounded py-5 px-20">Create</button>
+                    <button className="bg-green-400 rounded py-5 px-20" onClick={props.newLocation()}>Create</button>
                 </fieldset>
             </form>
         </article>
