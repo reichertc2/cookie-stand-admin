@@ -7,19 +7,19 @@ export default function CreateForm(props) {
                     <label className="m-4 block ">Location:
                         <input type="text" className="rounded ml-2 w-5/6"></input>
                     </label>
-                    <label className="inline-block w-1/4 text-sm">Minimum Customers per Hour:
+                    <label className="text-center bg-green-300 mx-2 p-2 py-3 rounded inline-block w-1/4 text-sm">Minimum Customers per Hour:
                         <br></br>
                         <input type="text" className="rounded mt-3 w-3/4"></input>
                     </label>
-                    <label className="inline-block w-1/4 text-sm">Maximum Customers per Hour:
+                    <label className="text-center bg-green-300 mx-2 p-2 py-3 rounded inline-block w-1/4 text-sm">Maximum Customers per Hour:
                         <br></br>
                         <input type="text" className="rounded mt-3 w-3/4"></input>
                     </label>
-                    <label className="inline-block w-1/4 text-sm">Average Cookies per Sale:
+                    <label className="text-center bg-green-300 mx-2 p-2 py-3 rounded inline-block w-1/4 text-sm">Average Cookies per Sale:
                         <br></br>
                         <input type="text" className="rounded mt-3 w-3/4"></input>
                     </label>
-                    <button className="bg-green-400 rounded pt-2 pb-2 pr-7 pl-7">Create</button>
+                    <button className="bg-green-400 rounded py-5 px-20">Create</button>
                 </fieldset>
             </form>
         </article>

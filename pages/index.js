@@ -1,14 +1,9 @@
-import Header from '../components/Header'
-import Main from '../components/Main'
-import Footer from '../components/Footer'
+import CookieStandAdmin from "../components/CookieStandAdmin"
 
 export default function Home() {
   return (
     <>
-      <Header />
-      <Main />
-      <Footer />
-
+      <CookieStandAdmin />
     </>
   )
 }
