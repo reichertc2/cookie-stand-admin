@@ -50,7 +50,7 @@ export default function CreateForm(props) {
                     <label className="m-4 inline-block w-2/3 ">Location:
                         <input type="text" className="rounded ml-2 w-3/4 inline-block" placeholder='Cookie Stand Location'></input>
                     </label>
-                    <button className="bg-green-400 rounded py-5 px-20 b- 3" onClick={(event) => handleClick(event)}>Create</button>
+                    <button className="bg-green-400 rounded py-5 px-20" onClick={(event) => handleClick(event)}>Create</button>
 
                     <label className="text-center bg-green-300 mx-2 p-2 py-3 rounded inline-block w-1/4 text-sm">Minimum Customers per Hour:
                         <br></br>
