@@ -1,22 +1,28 @@
+import Head from "next/head"
 import Header from './Header'
 import Main from './Main'
+
 import Footer from './Footer'
 import { useState } from 'react'
 
-export default function CookieStandAdmin() {
+export default function CookieStandAdmin(props) {
   const [storeCount, setStoreCount] = useState(0)
-  
-  
-  
+
+
+
   function handleLocations(count) {
     setStoreCount(count)
   }
 
   return (
     <>
-      <Header />
-      <Main 
-        locationCounter={handleLocations}
+      <Head>
+        <title>Cookie Stand Admin</title>
+      </Head>
+      <Header logout={props.logout}/>
+
+        <Main
+          locationCounter={handleLocations}
         />
       <Footer stores={storeCount} />
 
